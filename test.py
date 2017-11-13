@@ -4,5 +4,5 @@
 import input_data # 调用input_data
 mnist = input_data.read_data_sets('data/', one_hot=True)
 print("type of minst %s" % (type(mnist)))
-print("number of train minst %d" % (mnist.train.num.examples))
-print("number of test minst %d" % (mnist.test.num.examples))
+print("number of train minst %d" % (mnist.train.num_examples))
+print("number of test minst %d" % (mnist.test.num_examples))
